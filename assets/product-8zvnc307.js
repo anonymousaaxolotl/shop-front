@@ -1,0 +1,1 @@
+import{bT as p}from"./index-CL7RotcY.js";const{api:e,apiAuth:r}=p(),c={create:t=>r.post("/product",t),getAll:()=>r.get("/product/all"),update:(t,u)=>r.patch(`/product/${t}`,u),get:()=>e.get("/product"),getId:t=>e.get(`/product/${t}`)};export{c as s};
